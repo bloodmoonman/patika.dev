@@ -24,14 +24,11 @@
 
 3- 
 
-Best Case: En iyi senaryodur. Dizimizin hali hazırda sıralı olması durumudur. 
-Bu durumda hiç değişim işlemi yapılmaz, sadece tüm elemanları kontrol eder ve program biter. Bu işlem de n - 1 kadar karşılaştırma yapacağı için, O(N) olur.
 
-Average Case: Ortalama diyebileceğimiz senaryodur. Örnek olarak dizimizin karışık olma durumu verilebilir. 
-Bu durumda yapacağımız işlem sayısı n(n - 1) olur. Bu da O(N²) olur.
+best case: dizinin sıralı olması durumudur, O(n)
+worst case: büyükten küçüğe sıralı olmasıdır, O(n^2)
+average case: O(n^2)
 
-Worst Case: En kötü senaryodur. Dizimizin tersten sıralı olma durumu buna örnek olarak verilebilir. 
-Bu durumda yapabileceğimiz işlem sayısı n(n - 1) olur. Bu da O(N²) olur.
 
 4-
 
