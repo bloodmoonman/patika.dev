@@ -25,7 +25,7 @@
 3- 
 
 
-best case: dizinin sıralı olması durumudur, O(n)
+best case: dizinin küçükten büyüğe sıralı olması durumudur, O(n)
 worst case: büyükten küçüğe sıralı olmasıdır, O(n^2)
 average case: O(n^2)
 
